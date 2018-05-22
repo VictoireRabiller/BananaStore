@@ -1,0 +1,19 @@
+<main>
+	<table>
+		<tr>
+			<td class="photo">photo</td>
+			<td class="name">Nom</td>
+			<td class="description">description</td>
+			<td class="price">prix</td>
+		</tr>
+		<?php foreach ($productsList as $product): ?>
+		<tr>
+			<td class="photo"><img src="<?= $product["photo"] ?>"></td>	
+			<td class="name"><?= $product["name"] ?></td>
+			<td class="description"><?= $product["description"] ?></td>	
+			<td class="price"><?= $product["price"] ?></td>	
+		</tr>	
+		<?php endforeach; ?>
+	</table>
+
+</main>
