@@ -11,13 +11,23 @@
 			<nav>
 				<ul>
 					<li> <a href="home.php"> Accueil</a> </li>
+					<?php 
+					if (isset($_SESSION['id']) AND isset($_SESSION['email'])){
+
+        				echo "Bonjour {$_SESSION['firstname']} {$_SESSION['lastname']}";
+        				// pre($_SESSION);
+        				// exit;
+        				
+
+					} else{
+						echo "</a><li> <a href='login.php'> Se connecter</a> </li>";
+					}
+
+					?>
+
 				</ul>
 			</nav>
 
-		<form method="POST" action="login.php">
-			<label for="login"></label>
-			<input type="text" name="login" id="login" placeholder="Votre mail">
-			<button>Recherchez</button>
-		</form>
+		
 		</header>
 		

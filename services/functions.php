@@ -25,7 +25,7 @@ function findProductList($research){
 
 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 	$db->exec('SET NAMES UTF8');
-	$sql = "SELECT * FROM product WHERE description LIKE '% $research%'";
+	$sql = "SELECT * FROM product WHERE description LIKE '%$research%'";
 	// $sql = "SELECT * FROM product WHERE description LIKE '%" . $research ."%'";
 	$statement = $db->query($sql, \PDO::FETCH_ASSOC);
 	$products = [];

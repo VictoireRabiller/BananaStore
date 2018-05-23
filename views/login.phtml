@@ -1,0 +1,21 @@
+<?php 
+include '../views/header.phtml'; 
+?>
+
+<main>
+	<h1>S'identifier</h1>
+	<form method="POST" action="processLogin.php">
+		<fieldset>
+			<legend>Connexion</legend>
+			<label for="email"></label>
+			<input type="text" name="email" id="email" placeholder="Votre mail">
+			<label for="password"></label>
+			<input type="password" name="password" id="password" placeholder="Votre mot de passe">
+			<button>Entrez</button>
+		</fieldset>
+	</form>
+</main>
+
+<?php 
+include '../views/footer.phtml'; 
+?>
