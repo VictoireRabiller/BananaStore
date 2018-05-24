@@ -3,6 +3,26 @@ include 'header.phtml';
 ?>
 
 <main>
+
+<?php
+
+
+if (isset($error)){
+
+	if ($error == 1){
+	  
+	    echo "L'utilisateur n'existe pas";
+
+	}else if($error == 2){
+
+	    echo "Mot de passe incorrect";
+
+	}
+}
+
+?>
+
+
 	<h1>S'identifier</h1>
 	<form method="POST" action="processLogin.php">
 		<fieldset>

@@ -26,8 +26,8 @@ $user = getUserByEmail($email);
 
 
 if ($user == null) {
-    header('Location: login.php');
-    echo "L'utilisateur $email n'existe pas";
+    header('Location: login.php?error=1');
+    exit;
 
 
 } else {
@@ -38,10 +38,11 @@ if ($user == null) {
 
         header('Location: home.php');
         exit;
+
     } else {
 
-        header('Location: login.php');
-        echo "Mot de passe incorrect";
+        header('Location: login.php?error=2');
+        exit;
 
     }
 

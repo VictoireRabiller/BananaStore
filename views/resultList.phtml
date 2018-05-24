@@ -3,18 +3,21 @@ include 'header.phtml';
 ?>
 
 <main>
+	<form method="GET" action="resultList.php">
+		<label for="research"></label>
+		<input type="text" name="research" id="research" placeholder="Nouvelle recherche">
+		<button>Recherchez</button>
+	</form>
 	<section>
 		<h2> Résultat de votre recherche </h2>
-		<?php 
-			foreach ($productsSearch as $product): ?>
+		<?php foreach ($productsSearch as $product): ?>
 		<div class="product">
 			<img src="<?= $product["photo"] ?>">	
 			<p class="name"><?= $product["name"] ?></p>
 			<p class="description"><?= $product["description"] ?></p>	
 			<p class="price"><?= $product["price"] ?>€</p>
 		</div>
-		<?php 
-			endforeach; ?>
+		<?php endforeach; ?>
 	</section>
 	<?php 
 		if ($productsSearch == Array()){

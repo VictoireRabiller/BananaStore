@@ -1,0 +1,32 @@
+<?php 
+include 'header.phtml'; 
+?>
+
+<main>
+	<form method="GET" action="resultList.php">
+		<label for="research"></label>
+		<input type="text" name="research" id="research" placeholder="Nouvelle recherche">
+		<button>Recherchez</button>
+	</form>
+	<section>
+		<h2> Votre panier</h2>
+
+		<div class="panier">
+			<table>
+				<tr>
+					<td><img src="<?= $product["photo"] ?>"> </td>
+					<td><p class="name"><?= $product["name"] ?></p></td>
+					<td><p class="price"><?= $product["price"] ?>€</p></td>
+
+				</tr>
+			</table>
+		</div>
+
+
+	</section>
+	
+</main>
+
+<?php 
+include 'footer.phtml'; 
+?>

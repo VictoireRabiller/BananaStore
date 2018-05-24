@@ -18,7 +18,7 @@ ul {
 	padding-left: 0;
 }
 
-header, main{
+header, main, footer{
 	width: 800px;
 	text-align: center;
 	margin : 0 auto;
@@ -34,6 +34,10 @@ header ul{
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
+	font-weight: bold;
+	background-color: white;
+	color: rgba(32, 109, 122);
+
 } 
 	
 header nav ul li{
@@ -46,16 +50,19 @@ header nav ul li{
 
 header nav ul li a{
 	display: inline-block;
-	font-size: 3rem;
+	background-color: white;
+	color: rgba(32, 109, 122);
+	font-size: 1.5rem;
 	text-decoration: none;
-	color : white;
 	padding: 1rem;
 	font-weight: bold;
+	border-radius: 5px;
 	opacity: 1;
 }
 
+
 h1{
-	font-size: 10rem;
+	font-size: 7rem;
 	text-align: center;
 }
 
@@ -109,12 +116,57 @@ div{
 	font-size: 1rem;
 }
 
-a{
-	/*background-color: ;*/
+
+
+a.detailButton, a.addButton{
 	text-decoration: none;
-	color: white;
+	background-color : white;
+	color: grey;
 	font-size: 1.5rem;
-	border: 1px solid;
-	padding: 10px 10px;
+	border: 1px solid grey;
+	padding: 5px 10px;
 	border-radius: 5px;
+}
+
+
+/*page produit */
+.product table{
+	width : 600px;
+}
+
+td{
+	width :300px;
+	text-align: left;
+
+}
+
+.product img {
+	width : 200px;
+	max-height: 1000px;
+}
+
+.panier img{
+	width : 50px;
+}
+
+.panier table{
+	width: 700px;
+    margin: 0 -150px;
+    text-align: center;
+
+}
+.panier td{
+	width: 0%;
+    text-align: center;
+
+}
+
+.name{
+	font-size: 2.5rem;
+}
+.productPrice{
+	text-align: right;
+	font-weight: bold;
+	font-size: 2rem;
+	padding-right : 20px;
 }

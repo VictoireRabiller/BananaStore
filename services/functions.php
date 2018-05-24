@@ -50,3 +50,55 @@ function findProductList($research){
 }
 
 
+
+
+
+function getProduct($id){
+	$user = 'root';
+	$password = 'troiswa';
+
+	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
+	$db->exec('SET NAMES UTF8');
+	// $sql = "SELECT * FROM product";
+
+	// $statement = $db->query($sql, \PDO::FETCH_ASSOC);
+	// $products = [];
+
+	// foreach ($statement as $product){
+	// 	$products[] = $product;
+	// }
+	// return $products;
+
+	$sql = "SELECT * FROM `product` WHERE id = '$id' ";
+	$statement = $db->prepare($sql);
+	$statement->execute();
+	$product = $statement->fetch(\PDO::FETCH_ASSOC);
+
+	return $product;
+}
+
+
+// function addProductToCart($id){
+// 	$user = 'root';
+// 	$password = 'troiswa';
+
+// 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
+// 	$db->exec('SET NAMES UTF8');
+// 	// $sql = "SELECT * FROM product";
+
+// 	// $statement = $db->query($sql, \PDO::FETCH_ASSOC);
+// 	// $products = [];
+
+// 	// foreach ($statement as $product){
+// 	// 	$products[] = $product;
+// 	// }
+// 	// return $products;
+
+// 	$sql = "SELECT * FROM `product` WHERE id = '$id' ";
+// 	$statement = $db->prepare($sql);
+// 	$statement->execute();
+// 	$product = $statement->fetchAll(\PDO::FETCH_ASSOC);
+
+// 	return $product;
+// }
+
