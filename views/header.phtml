@@ -11,20 +11,22 @@
 			<nav>
 				<ul>
 					<li> <a href="home.php"> Accueil</a> </li>
-					<?php 
-					if (isset($_SESSION['id']) AND isset($_SESSION['email'])){
-
-        				echo "Bonjour {$_SESSION['firstname']} {$_SESSION['lastname']}";
-        				// pre($_SESSION);
-        				// exit;
-        				
-
-					} else{
-						echo "</a><li> <a href='login.php'> Se connecter</a> </li>";
-					}
-
+					<?php if (isset($_SESSION['iduser'])): ?>
+			
+					<?php
+						$me = getUserById($_SESSION['iduser']);
 					?>
 
+					Bonjour <?= $me['firstname'] ?> <?= $me['lastname'] ?>
+
+					<a href="logout.php">Se déconnecter</a>
+
+					<?php else: ?>
+					
+					<a href="login.php">S'identifier</a>
+
+					<?php endif; ?>
+		
 				</ul>
 			</nav>
 

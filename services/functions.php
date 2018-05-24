@@ -1,19 +1,32 @@
 <?php
 
-function getProductList(){
+function getProductList($word = null){
 	$user = 'root';
 	$password = 'troiswa';
 
 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 	$db->exec('SET NAMES UTF8');
-	$sql = "SELECT * FROM product";
+	// $sql = "SELECT * FROM product";
 
-	$statement = $db->query($sql, \PDO::FETCH_ASSOC);
-	$products = [];
+	// $statement = $db->query($sql, \PDO::FETCH_ASSOC);
+	// $products = [];
 
-	foreach ($statement as $product){
-		$products[] = $product;
+	// foreach ($statement as $product){
+	// 	$products[] = $product;
+	// }
+	// return $products;
+
+	if ($word) {
+		$sql = "SELECT * FROM product WHERE name LIKE '%$word%' OR description LIKE '%$word%'";
+
+	} else {
+		$sql = "SELECT * FROM product";
 	}
+
+	$statement = $db->prepare($sql);
+	$statement->execute();
+	$products = $statement->fetchAll(\PDO::FETCH_ASSOC);
+
 	return $products;
 }
 
