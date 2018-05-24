@@ -18,7 +18,7 @@ include 'header.phtml';
 						<img src="<?= $product["photo"] ?>"> 
 					</td>
 					<td><p class="name"><?= $product["name"] ?></p>
-						<p class="price"><?= $product["price"] ?>€</p>
+						<p class="productPrice"><?= $product["price"] ?>€</p>
 						<p class="quantity">Quantité en stock :<?= $product["quantity"] ?></p>
 						<p class="description"><?= $product["description"] ?></p>	
 						<a class ='addButton' href = "panier.php?id=<?= $product["id"] ?>"> Ajouter au panier </a>

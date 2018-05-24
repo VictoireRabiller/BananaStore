@@ -27,6 +27,10 @@
 
 					<?php endif; ?>
 					<li> <a href="panier.php"> Panier</a> </li>
+					<?php 
+					$ProductCartNumber = count($_SESSION['cart']);
+					echo $ProductCartNumber ;
+					?>
 		
 				</ul>
 			</nav>

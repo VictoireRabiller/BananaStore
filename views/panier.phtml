@@ -12,6 +12,18 @@ include 'header.phtml';
 		<h2> Votre panier</h2>
 
 		<div class="panier">
+
+		<?php
+		$ids = $_SESSION['cart'];
+		$products = [];
+		foreach ($ids as $id) {
+			$product = getProduct($id);
+			$products[]= $product;
+		}
+
+
+		?>
+
 			<table>
 				<tr>
 					<td><img src="<?= $product["photo"] ?>"> </td>

@@ -2,8 +2,14 @@
 include '../bootstrap.php';
 
 
-$product = getProduct( $_GET['id'] ); 
-// pre($productToCart);
+
+if (isset( $_GET['id']){
+	$id = $_GET['id'];
+	$_SESSION['cart'][] = $id;
+}
+
+
+// pre($productToCart); si y a un Id if isset je l'ajoute
 
 
 
