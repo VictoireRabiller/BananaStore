@@ -2,7 +2,7 @@
 
 function getProductList($word = null){
 	$user = 'root';
-	$password = 'troiswa';
+	$password = 'antony';
 
 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 	$db->exec('SET NAMES UTF8');
@@ -34,7 +34,7 @@ function getProductList($word = null){
 
 function findProductList($research){
 	$user = 'root';
-	$password = 'troiswa';
+	$password = 'antony';
 
 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 	$db->exec('SET NAMES UTF8');
@@ -55,7 +55,7 @@ function findProductList($research){
 
 function getProduct($id){
 	$user = 'root';
-	$password = 'troiswa';
+	$password = 'antony';
 
 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 	$db->exec('SET NAMES UTF8');
@@ -80,7 +80,7 @@ function getProduct($id){
 
 // function addProductToCart($id){
 // 	$user = 'root';
-// 	$password = 'troiswa';
+// 	$password = 'antony';
 
 // 	$db =new PDO('mysql:host=localhost;dbname=banana_store', $user, $password);
 // 	$db->exec('SET NAMES UTF8');

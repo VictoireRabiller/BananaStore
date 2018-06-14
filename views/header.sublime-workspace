@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ut",
+				"utChoice"
+			],
+			[
+				"u",
+				"utChoice"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 358.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/www-dev/private/developpement/BananaStore-master/views/header.phtml",
+		"/media/www-dev/private/developpement/BananaStore-master/services/functions.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/logout.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/login.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/home.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/panier.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/processLogin.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/product.php",
+		"/media/www-dev/private/developpement/BananaStore-master/public/resultList.php",
+		"/media/www-dev/private/developpement/M15/bootstrap.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/public/search.php",
+		"/media/www-dev/private/developpement/M15/public/resultList.php",
+		"/media/www-dev/private/developpement/M15/services/userService.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/public/home.php",
+		"/media/www-dev/private/developpement/M15/public/home.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/public/login.php",
+		"/media/www-dev/private/developpement/M15/public/login.php",
+		"/media/www-dev/private/developpement/M15/public/logout.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/public/logout.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/public/processLogin.php",
+		"/media/www-dev/private/developpement/M15/public/processLogin.php",
+		"/media/www-dev/private/developpement/M15/services/functions.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/services/productService.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/bootstrap.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/services/userService.php",
+		"/media/www-dev/private/developpement/M15/services/tools.php",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/services/tools.php",
+		"/media/www-dev/private/developpement/M15/views/resultList.phtml",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/views/search.phtml",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/views/login.phtml",
+		"/media/www-dev/private/developpement/M15/views/login.phtml",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/views/home.phtml",
+		"/media/www-dev/private/developpement/M15/views/home.phtml",
+		"/media/www-dev/private/developpement/M15/views/footer.phtml",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/views/footer.phtml",
+		"/media/www-dev/private/developpement/git/3wa-bananastore/views/header.phtml",
+		"/media/www-dev/private/developpement/M15/views/header.phtml",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/public/addTask.php",
+		"/media/www-dev/private/BananaStore-master/public/home.php",
+		"/media/www-dev/private/BananaStore-master/views/home.phtml",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/public/index.php",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/services/taskService.php",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/views/index.phtml",
+		"/var/www/html/services/functions.php",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/services/tools.php",
+		"/home/utilisateur/Documents/developpement/M14/3wa-todo-master/public/removeTask.php",
+		"/var/www/html/public/index.php",
+		"/var/www/html/views/index.phtml",
+		"/var/www/html/public/createPerso.php",
+		"/var/www/html/public/addPerso.php",
+		"/var/www/html/views/createPerso.phtml",
+		"/var/www/html/index.php",
+		"/var/www/untitled.php",
+		"/var/www/html/views/listPerso.phtml",
+		"/home/utilisateur/Documents/developpement/M14/arena julien/3xa-arena-master/services/heroService.php",
+		"/home/utilisateur/Documents/developpement/M14/arena/public/index.php",
+		"/home/utilisateur/Documents/developpement/M14/arena/public/listPerso.php",
+		"/home/utilisateur/Documents/developpement/M14/arena/public/addPerso.php",
+		"/home/utilisateur/Documents/developpement/M14/arena/public/createPerso.php",
+		"/var/www/html/public/listPerso.php",
+		"/home/utilisateur/Documents/developpement/M14/arena julien/3xa-arena-master/public/testAddHero.php",
+		"/home/utilisateur/Documents/developpement/M14/arena julien/3xa-arena-master/public/test.php",
+		"/home/utilisateur/Documents/developpement/M14/arena/public/arena.php",
+		"/var/www/html/views/arena.phtml",
+		"/var/www/html/public/arena.php",
+		"/home/utilisateur/Documents/developpement/M14/arena julien/3xa-arena-master/services/tools.php",
+		"/var/www/html/services/tools.php",
+		"/var/www/html/css/stylesheet.css",
+		"/var/www/html/css/normalize.css",
+		"/home/utilisateur/Documents/Intégration/M12 - Cup of Tea/index.html",
+		"/home/utilisateur/Documents/Developpement/Chifoumi/chifoumi.html",
+		"/home/utilisateur/Documents/Intégration/M12 - Cup of Tea/css/stylesheet.css",
+		"/home/utilisateur/Documents/Developpement/Chifoumi/chifoumi.js",
+		"/home/utilisateur/Documents/Intégration/M12 - Cup of Tea/product.html",
+		"/home/utilisateur/Documents/Intégration/M12 - Cup of Tea/listing.html",
+		"/home/utilisateur/Documents/Intégration/M12 - Cup of Tea/about.html",
+		"/home/utilisateur/Documents/Developpement/M09/album photo/js/main.js",
+		"/home/utilisateur/Documents/Developpement/M09/dragonSlayerBis/index.js",
+		"/home/utilisateur/Documents/Developpement/M09/exo/exo.js",
+		"/home/utilisateur/Documents/Developpement/M09/node/index.js",
+		"/home/utilisateur/Documents/Developpement/M08/rappel0305.js",
+		"/home/utilisateur/Documents/Developpement/M09/album photo/index.html",
+		"/home/utilisateur/Documents/Developpement/M09/exo/exo.html",
+		"/home/utilisateur/Documents/Intégration/M11 - Mindgeek/index.html",
+		"/home/utilisateur/Documents/Intégration/M11 - Mindgeek/cloud.html",
+		"/home/utilisateur/Documents/Intégration/M11 - Mindgeek/css/stylesheet.css",
+		"/home/utilisateur/Documents/Developpement/M06/DragonSlayer/DragonSlayer.html",
+		"/home/utilisateur/Documents/Developpement/M06/DragonSlayer/fighter.js",
+		"/home/utilisateur/Documents/Developpement/M06/DragonSlayer/functions.js",
+		"/home/utilisateur/Documents/Developpement/M06/DragonSlayer/DragonSlayer.js",
+		"/home/utilisateur/Documents/Developpement/M05/panier/panier.js",
+		"/home/utilisateur/Documents/Developpement/M05/liste/liste.js",
+		"/home/utilisateur/Documents/Developpement/M05/fonction/fonction.js",
+		"/home/utilisateur/Documents/Intégration/M09 - Wolf Gang/M09 - Wolf Gang (corrigВ)/css/style.css",
+		"/home/utilisateur/Documents/Intégration/M09 - Wolf Gang/css/stylesheet.css",
+		"/home/utilisateur/Documents/Intégration/M09 - Wolf Gang/index.html",
+		"/home/utilisateur/Documents/Intégration/M09 - Wolf Gang/M09 - Wolf Gang (corrigВ)/index.html",
+		"/home/utilisateur/Documents/Intégration/M09 - Wolf Gang/M09 - Wolf Gang (corrigВ)/css/flexslider.css",
+		"/home/utilisateur/Documents/Developpement/M05/chifoumi2/chifoumi2.html",
+		"/home/utilisateur/Documents/Developpement/M05/chifoumi2/chifoumi2.js",
+		"/home/utilisateur/Documents/chifoumi.html",
+		"/home/utilisateur/Documents/chifoumi.js",
+		"/home/utilisateur/Documents/Intégration/M06 - Ila Yoga 2/index.html",
+		"/home/utilisateur/Documents/Developpement/M03/boolean.js",
+		"/home/utilisateur/Documents/Developpement/M03/Calculatrice de TVA avec remise corrigé/index.js",
+		"/home/utilisateur/Documents/Intégration/M06 - Ila Yoga 2 (corrigВ)/contact.html",
+		"/home/utilisateur/Documents/Intégration/M06 - Ila Yoga 2/css/stylesheet.css",
+		"/home/utilisateur/Documents/Intégration/M06 - Ila Yoga 2 (corrigВ)/css/style.css",
+		"/home/utilisateur/Documents/Intégration/M06 - Ila Yoga 2 (corrigВ)/css/font-awesome.min.css",
+		"/home/utilisateur/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/utilisateur/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "header.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

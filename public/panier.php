@@ -3,7 +3,7 @@ include '../bootstrap.php';
 
 
 
-if (isset( $_GET['id']){
+if (isset( $_GET['id'])){
 	$id = $_GET['id'];
 	$_SESSION['cart'][] = $id;
 }
