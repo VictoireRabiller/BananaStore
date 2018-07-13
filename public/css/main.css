@@ -9,8 +9,8 @@ body{
 	font-size: 1.6rem;
  	margin : 0 auto;
 	text-align: center;
-	background-image: url(https://thumbs.dreamstime.com/b/papier-peint-des-bananes-de-coupe-30375496.jpg);
-	opacity: 0.95;
+/*	background-image: url(https://thumbs.dreamstime.com/b/papier-peint-des-bananes-de-coupe-30375496.jpg);
+*/	opacity: 0.95;
 }
 
 ul {
@@ -37,7 +37,7 @@ header ul{
 	font-weight: bold;
 	background-color: white;
 	color: rgba(32, 109, 122);
-
+	border-radius: 15px;
 } 
 	
 header nav ul li{
@@ -61,8 +61,13 @@ header nav ul li a{
 }
 
 
+h1,h2,h3{
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+
+}
 h1{
-	font-size: 7rem;
+	font-size: 4rem;
 	text-align: center;
 }
 
@@ -82,6 +87,8 @@ a.mepButton{
 	text-decoration: none;
 
 }
+
+
 img{
 	max-height: 150px;
 	border-radius: 15%;
@@ -140,9 +147,9 @@ td{
 
 }
 
+
 .product img {
-	width : 200px;
-	max-height: 1000px;
+	max-height: 150px;
 }
 
 .panier img{
@@ -169,4 +176,20 @@ td{
 	font-weight: bold;
 	font-size: 2rem;
 	padding-right : 20px;
+}
+
+#connexion{
+	width: 100%;
+	text-align: right;
+
+}
+
+#connexion a{
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	padding: 2rem 3rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius:15px;
 }

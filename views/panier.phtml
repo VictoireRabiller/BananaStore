@@ -13,24 +13,18 @@ include 'header.phtml';
 
 		<div class="panier">
 
-		<?php
-		$ids = $_SESSION['cart'];
-		$products = [];
-		foreach ($ids as $id) {
-			$product = getProduct($id);
-			$products[]= $product;
-		}
 
-
-		?>
 
 			<table>
-				<tr>
-					<td><img src="<?= $product["photo"] ?>"> </td>
-					<td><p class="name"><?= $product["name"] ?></p></td>
-					<td><p class="price"><?= $product["price"] ?>€</p></td>
 
-				</tr>
+				<?php foreach ($products as $product): ?>
+				<tr>
+					<td><img src="<?= $product["photo"] ?>"></td>
+					<td><p class="name"><?= $product["name"] ?></td>	
+					<td><p class="price"><?= $product["price"].€ ?></p></td>	
+				</tr>	
+				<?php endforeach; ?>
+
 			</table>
 		</div>
 

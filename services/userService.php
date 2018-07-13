@@ -3,7 +3,7 @@
 function getUserByEmail($email) {
 	$sql = "SELECT * FROM user WHERE email LIKE '$email'";
 
-	$db = new PDO('mysql:host=localhost;dbname=banana_store', 'root', 'troiswa');
+	$db = new PDO('mysql:host=localhost;dbname=banana_store', 'root', 'antony');
 
 	$statement = $db->prepare($sql);
 	$statement->execute();
@@ -15,7 +15,7 @@ function getUserByEmail($email) {
 function getUserById($id) {
 	$sql = "SELECT * FROM user WHERE id = $id";
 
-	$db = new PDO('mysql:host=localhost;dbname=banana_store', 'root', 'troiswa');
+	$db = new PDO('mysql:host=localhost;dbname=banana_store', 'root', 'antony');
 
 	$statement = $db->prepare($sql);
 	$statement->execute();

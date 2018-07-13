@@ -16,6 +16,7 @@ include 'header.phtml';
 			<p class="name"><?= $product["name"] ?></p>
 			<p class="description"><?= $product["description"] ?></p>	
 			<p class="price"><?= $product["price"] ?>€</p>
+			<a class ='detailButton' href = "product.php?id=<?= $product["id"] ?>"> Détail du produit </a>
 		</div>
 		<?php endforeach; ?>
 	</section>
