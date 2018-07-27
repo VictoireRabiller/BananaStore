@@ -9,8 +9,9 @@ body{
 	font-size: 1.6rem;
  	margin : 0 auto;
 	text-align: center;
-/*	background-image: url(https://thumbs.dreamstime.com/b/papier-peint-des-bananes-de-coupe-30375496.jpg);
-*/	opacity: 0.95;
+	background-color: rgba(32, 109, 122, 1);
+	min-height: 800px;
+
 }
 
 ul {
@@ -19,11 +20,10 @@ ul {
 }
 
 header, main, footer{
-	width: 800px;
+	width: 90%;
 	text-align: center;
 	margin : 0 auto;
 	background-attachment: fixed;
-	background-color: rgba(32, 109, 122, 1);
 	padding : 20px;
 
 }
@@ -44,9 +44,7 @@ header nav ul li{
 	display: inline-block;
 	width: 25%;
 	align-self: center;
-	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4qbnNJ8m0nSpewmYjVKo6pyKC-tNc7JkZ7Ap4DA388YiMds_");
-	opacity: 0.8;
-*/} 
+} 
 
 header nav ul li a{
 	display: inline-block;
@@ -98,7 +96,7 @@ td {
 	height: 200px;
 }
 .name{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -153,7 +151,7 @@ td{
 }
 
 .panier img{
-	width : 50px;
+	max-height: 100px;
 }
 
 .panier table{
@@ -163,14 +161,11 @@ td{
 
 }
 .panier td{
-	width: 0%;
     text-align: center;
 
 }
 
-.name{
-	font-size: 2.5rem;
-}
+
 .productPrice{
 	text-align: right;
 	font-weight: bold;
@@ -193,3 +188,16 @@ td{
 	background-color: rgba(255, 255, 255, 0.2);
 	border-radius:15px;
 }
+a.log{
+	width: 200px;
+}
+
+.register{
+	text-align: left;
+	margin: 1rem auto;
+}
+
+label{
+    display: inline-block;
+/*    width: 175px;
+*/}

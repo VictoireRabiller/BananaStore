@@ -16,13 +16,14 @@ include 'header.phtml';
 
 
 			<table>
-
+  			<?php $totalTTC = 0?>
 				<?php foreach ($products as $product): ?>
 				<tr>
 					<td><img src="<?= $product["photo"] ?>"></td>
 					<td><p class="name"><?= $product["name"] ?></td>	
-					<td><p class="price"><?= $product["price"].€ ?></p></td>	
+					<td><p class="price"><?= $product["price"]."€" ?></p></td>	
 				</tr>	
+				<?php $totalTTC += $product['price'] * $product['quantity'];?> 
 				<?php endforeach; ?>
 
 			</table>
