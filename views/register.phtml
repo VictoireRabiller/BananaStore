@@ -4,7 +4,7 @@ include 'header.phtml';
 
 <main>
 
-<form method="post" action="">
+<form method="post" action="processRegister.php">
 	
 	<fieldset>
 		<legend><i class="fa fa-book"></i> Identité et coordonnées </legend>
@@ -83,7 +83,7 @@ include 'header.phtml';
 
 					
 			</li>
-			<li class="register">
+			<!-- <li class="register">
 			
 				<label for="address">Adresse : </label>
 				<input type="text" name="address" id="address">
@@ -95,10 +95,10 @@ include 'header.phtml';
 			<li class="register">
 				<label for="zipcode">CP : </label>
 				<input type="text" name="zipcode" id="zipcode">
-			</li>
+			</li> -->
 			<li class="register">
-				<label for="phone">Tel : </label>
-				<input type="text" name="phone" id="phone">
+				<label for="tel">Tel : </label>
+				<input type="text" name="tel" id="tel">
 			
 			</li>
 
@@ -124,7 +124,7 @@ include 'header.phtml';
 	</fieldset>
 		
 	<input class="button button-primary" type="submit" value="Créer le compte">
-	<a class="button button-cancel small" href="<?= $requestUrl ?>">Annuler</a>
+	<a class="button button-cancel small" href="login.php">Annuler</a>
 		
 </form>
 

@@ -12,9 +12,23 @@ include '../bootstrap.php';
 // unset($_POST['year']);
 
 
+$user = [];
+
+
+$user['firstname'] = $_POST['firstname'];
+$user['lastname'] = $_POST['lastname'];
+$user['tel'] = $_POST['tel'];
+// $user['birthdate'] = $_POST['birthdate'];
+$user['email'] = $_POST['email'];
+$user['password'] = $_POST['password'];
+
+createUser($user);
+
+// pre($user);
+// exit;
+
+header('Location: login.php');
 
 
 
 
-
-include '../views/register.phtml';

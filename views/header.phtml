@@ -12,7 +12,12 @@
 		<header>
 			<nav>
 				<ul>
-					<li> <a href="home.php"> <img src="../views/img/popLogo.png" alt="bananaStore"> </a> </li>
+					<li> 
+						<a href="home.php" id="bananaStore">
+							<i class="fas fa-star"></i>  
+							<span>BananaStore</span>
+						</a> 
+					</li>
 					
 					
 					<li> 
@@ -29,10 +34,10 @@
 			
 					<?php
 						$me = getUserById($_SESSION['iduser']);
-					?>
+					?><p id="hello">
 					Bonjour <?= $me['firstname'] ?> <?= $me['lastname'] ?>
 					<a href="logout.php" class="log">Se déconnecter</a>
-
+					</p>
 					<?php else: ?>
 					
 					<a href="login.php" class="log">S'identifier</a>

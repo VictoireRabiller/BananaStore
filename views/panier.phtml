@@ -16,16 +16,36 @@ include 'header.phtml';
 
 
 			<table>
-  			<?php $totalTTC = 0?>
-				<?php foreach ($products as $product): ?>
-				<tr>
-					<td><img src="<?= $product["photo"] ?>"></td>
-					<td><p class="name"><?= $product["name"] ?></td>	
-					<td><p class="price"><?= $product["price"]."€" ?></p></td>	
-				</tr>	
-				<?php $totalTTC += $product['price'] * $product['quantity'];?> 
-				<?php endforeach; ?>
+				<thead>
+	                <tr>
+	                    <th class="number">Produit</th>
+	                    <th></th>
+	                    <th>Quantité</th>
+	                    <th class="number">Prix Unitaire</th>
+	                    <th class="number">Prix Total</th>
+	                    <th></th>
+	                </tr>
+            	</thead>
 
+            	<tbody>
+	  				<?php $totalTTC = 0?>
+					<?php foreach ($products as $product): ?>
+					<tr>
+						<td><img src="<?= $product["photo"] ?>"></td>
+						<td><p class="name"><?= $product["name"] ?></td>	
+						
+						<td class="number"><?= $product['price'] ?></td>
+                    <td class="number"><?= $product['price'] * $product['quantity'] ?></td>
+                    <td>
+                        <button type="button" class="button button-cancel small btn-delete" title="Supprimer" data-id="<?= $product['id'] ?>">
+                        <i class="fas fa-trash"></i>
+                        </button>
+                    </td>	
+					</tr>	
+					<?php $totalTTC += $product['price'] * $product['quantity'];?> 
+					<?php endforeach; ?>
+
+				</tbody>
 			</table>
 		</div>
 

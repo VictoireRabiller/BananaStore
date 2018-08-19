@@ -3,13 +3,13 @@ html{
 }
 
 body{
-	color : white;
+	color :  rgba(32, 109, 122, 1);
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.8;
 	font-size: 1.6rem;
  	margin : 0 auto;
 	text-align: center;
-	background-color: rgba(32, 109, 122, 1);
+	background-color: grey/*bleu : rgba(32, 109, 122, 1)*/;
 	min-height: 800px;
 
 }
@@ -28,7 +28,6 @@ header, main, footer{
 
 }
 
-
 header ul{
 	margin: 0;
 	display: flex;
@@ -36,7 +35,7 @@ header ul{
 	justify-content: space-between;
 	font-weight: bold;
 	background-color: white;
-	color: rgba(32, 109, 122);
+	color: rgba(32, 109, 122, 1);
 	border-radius: 15px;
 } 
 	
@@ -56,6 +55,21 @@ header nav ul li a{
 	font-weight: bold;
 	border-radius: 5px;
 	opacity: 1;
+}
+
+header .fa-star{
+	font-size: 80px;
+}
+
+header #bananaStore span{
+	font-size: 2.5rem;
+}
+header .fa-shopping-cart{
+	font-size : 30px;
+}
+main{
+	background-color :#f2f2f2;
+	border-radius: 20px;
 }
 
 
@@ -81,7 +95,7 @@ a.mepButton{
 	margin-right: auto;
 	background-color: white;
 	padding :5px;
-	color :grey;
+	color : rgba(32, 109, 122, 1);
 	text-decoration: none;
 
 }
@@ -123,17 +137,19 @@ div{
 
 
 
-a.detailButton, a.addButton{
+a.detailButton, a.addButton, a#createId{
 	text-decoration: none;
-	background-color : white;
-	color: grey;
+	background-color : #d2e2e4;
+	color:  rgba(32, 109, 122, 1);
 	font-size: 1.5rem;
-	border: 1px solid grey;
+	border: 1px solid #d2e2e4;
 	padding: 5px 10px;
 	border-radius: 5px;
 }
 
-
+#createId{
+	margin-left: 5rem;
+}
 /*page produit */
 .product table{
 	width : 600px;
@@ -149,7 +165,9 @@ td{
 .product img {
 	max-height: 150px;
 }
-
+.productImage img{
+	height: 200px;
+}
 .panier img{
 	max-height: 100px;
 }
@@ -167,7 +185,7 @@ td{
 
 
 .productPrice{
-	text-align: right;
+	text-align: center;
 	font-weight: bold;
 	font-size: 2rem;
 	padding-right : 20px;
@@ -183,9 +201,9 @@ td{
 	font-weight: bold;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: white;
+	color:  rgba(32, 109, 122, 1);
 	padding: 2rem 3rem;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.8);
 	border-radius:15px;
 }
 a.log{
@@ -199,5 +217,17 @@ a.log{
 
 label{
     display: inline-block;
-/*    width: 175px;
-*/}
+}
+.register>label{
+	width: 175px;
+}
+#hello{
+	color: white;
+	font-weight: bold;
+/*	font-size: 2rem;*/
+}
+footer{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
